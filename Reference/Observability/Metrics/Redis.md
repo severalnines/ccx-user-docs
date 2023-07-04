@@ -1,0 +1,13 @@
+- [**Redis**](https://docs.redis.com/latest/rs/clusters/monitoring/prometheus-metrics-definitions/)
+  - Blocked Clients
+    - Clients blocked while waiting on a command to execute
+  - Memory Used
+    - Amount of memory used by Redis (in bytes)
+  - Connected Clients
+    - Count of clients connected to Redis
+  - Redis commands per second
+    - Count of commands processed per second
+  - Total keys
+    - The total count of all keys stored by Redis
+  - Replica Lag
+    - The lag (in seconds) between the primary and the replica(s)

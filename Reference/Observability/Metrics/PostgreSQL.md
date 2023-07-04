@@ -1,0 +1,27 @@
+- [**PostgreSQL**](https://www.postgresql.org/docs/current/monitoring-stats.html)
+  - SELECT (fetched)
+    - Count of rows fetched by queries to the database
+  - SELECT (returned)
+    - Count of rows returned by queries to the database
+  - INSERT
+    - Count of rows inserted to the database
+  - UPDATE
+    - Count of rows updated in the database
+  - DELETE
+    - Count of rows deleted in the database
+  - Active Sessions
+    - Count of currently running queries
+  - Idle Sessions
+    - Count of connections to the database that are not currently in use
+  - Idle Sessions in transaction
+    - Count of connections that have begun a transaction but not yet completed while not actively doing work
+  - Idle Sessions in transaction (aborted)
+    - Count of connections that have begun a transaction but did not complete and were forcefully aborted before they could complete
+  - Lock tables
+    - Active locks on the database
+  - Checkpoints requested and timed
+    - Count of checkpoints requested and scheduled
+  - Checkpoint sync time
+    - Time synchronising checkpoint files to disk
+  - Checkpoint write time
+    - Time to write checkpoints to disk

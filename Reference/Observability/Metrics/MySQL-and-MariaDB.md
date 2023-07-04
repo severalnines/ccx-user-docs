@@ -1,0 +1,62 @@
+- [**MySQL**](https://dev.mysql.com/doc/mysql-em-plugin/en/myoem-metrics.html) **/ MariaDB**
+  - Handler Stats
+    - Statistics for the handler. Shown as:
+        - Read Rnd
+          - Count of requests to read a row based on a fixed position
+        - Read Rnd Next
+          - Count of requests to read a subsequent row in a data file
+        - Read Next
+          - Count of requests to read the next row in key order
+        - Read Last
+          - Count of requests to read the last key in an index
+        - Read Prev
+          - Count of requests to read the previous row in key order
+        - Read First
+          - Count of requests to read a row based on an index key value
+        - Read Key
+          - Count of requests to read the last key in an index
+        - Update
+          - Count of requests to update a row
+        - Write
+          - Count of requests to insert to a table
+  - Handler Transaction Stats
+  - Database Connections
+    - Count of connections to the database. Shown as:
+      - Thread Connected
+        - Count of clients connected to the database
+      - Max Connections
+        - Count of max connections allowed to the database
+      - Max Used Connections
+        - Maximum number of connections in use
+      - Aborted Clients
+        - Number of connections aborted due to client not closing
+      - Aborted Connects
+        - Number of failed connection attempts
+      - Connections
+          - Number of connection attempts
+  - Queries
+    - Count of queries executed
+  - Scan Operations
+    - Count of operations for the operations: SELECT, UPDATE and DELETE
+  - Table Locking
+    - Count of table locks. Shown as:
+      - Table locks immediate
+        - Count of table locks that could be granted immediately
+      - Table locks waited
+        - Count of locks that had to be waited due to existing locks or another reason
+  - Temporary Tables
+    - Count of temporary tables created. Shown as:
+      - Temporary tables
+        - Count of temporary tables created
+      - Temporary tables on Disk
+        - Count of temporary tables created on disk rather than in memory
+  - Sorting
+  - Aborted Connections
+    - Count of failed or aborted connections to the database. Shown as:
+      - Aborted Clients
+        - Number of connections aborted due to client not closing
+      - Aborted Connects
+        - Number of failed connection attempts
+      - Access Denied Errors
+        - Count of unsuccessful authentication attempts
+    - Memory Utilisation
