@@ -16,7 +16,7 @@ Ensure that the source is configured to act as a replication source.
 Create a replication user with sufficient privileges on the source.
 ```
 CREATE USER 'repluser'@'%' IDENTIFIED BY '<SECRET>';
-GRANT REPLICATION SLAVE ON *.*  'repluser'@'%';
+GRANT REPLICATION SLAVE ON *.* TO  'repluser'@'%';
 ```
 ### Prepare the replica to replicate from the source
 The replica must be instrucuted to replicate from the source.
