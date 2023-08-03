@@ -9,9 +9,13 @@ Note! If you dont want to setup replication, then you can chose to only apply th
 * Apply the dumpfile on the replica
 
 ### Preparations
+Ensure that the source is configured to act as a replication source.
+* Binary logging is enabled.
+* Server_id is set to non 0.
+
 Create a replication user with sufficient privileges on the source.
 ```
-CREATE 'repluser'@'%' IDENTIFIED BY '<SECRET>';
+CREATE USER 'repluser'@'%' IDENTIFIED BY '<SECRET>';
 GRANT REPLICATION SLAVE ON *.*  'repluser'@'%';
 ```
 ### Prepare the replica to replicate from the source
