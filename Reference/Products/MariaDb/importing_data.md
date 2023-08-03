@@ -11,7 +11,7 @@ Note! If you dont want to setup replication, then you can chose to only apply th
 ### Limitations of MariaDb
 MariaDb does not offer as fine grained control over privileges as MySQL.
 Nor does it have the same level of replication features.
-The following properties must be respected in order to comply with SLA:
+The following properties must be respected in order to comply with the SLA:
 * There must be no user management happening on the source, while the data is imported and the replication link is active. This is avoid corruption of the mysql database and possibly other system databases.
 * It is recommended to set binlog-ignore-db on the source to 'mysql, performance_schema, and sys' during the data import/sync process.
 
