@@ -22,7 +22,10 @@ Ensure that the source is configured to act as a replication source.
 * Server_id is set to non 0.
 Also, prepare the replica with the databases you wish to replicate from the source to the master:
 * Using the CCX UI, go to Databases, and issue a Create Database for each database that will be replicated.
+Ensure the CCX Firewall is updated:
+* Add the replication source as a Trusted Source in the Firewall section of the CCX UI.
 
+### Create a replication user
 Create a replication user with sufficient privileges on the source:
 ```
 CREATE USER 'repluser'@'%' IDENTIFIED BY '<SECRET>';

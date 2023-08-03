@@ -9,10 +9,13 @@ Note! If you dont want to setup replication, then you can chose to only apply th
 * Apply the dumpfile on the replica
 
 ### Preparations
-Ensure that the source is configured to act as a replication source.
+Ensure that the source is configured to act as a replication source:
 * Binary logging is enabled.
 * Server_id is set to non 0.
+Ensure the CCX Firewall is updated:
+* Add the replication source as a Trusted Source in the Firewall section of the CCX UI.
 
+### Create a replication user
 Create a replication user with sufficient privileges on the source:
 ```
 CREATE USER 'repluser'@'%' IDENTIFIED BY '<SECRET>';
