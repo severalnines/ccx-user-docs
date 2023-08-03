@@ -33,7 +33,7 @@ CHANGE REPLICATION FILTER REPLICATE_IGNORE_DB=(mysql,sys, performance_schema);
 ```
 
 ### Create a database dump file
-The database dump contains the data that you wish to import into the replica.
+The database dump contains the data that you wish to import into the replica. Only partial dumps are possible. The dump must not contains any mysql or other system datbases.
 On the source, issue the following command:
 ```
 mysqldump --set-gtid-purged=OFF -uUSER -pSECRET   --master-data --single-transaction --databases --triggers --routines --events DATABASES > dump.sql
