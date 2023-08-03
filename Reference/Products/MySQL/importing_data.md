@@ -1,9 +1,12 @@
 # Importing data
-## Using MySQL Replication
 
 This procedure describes how to import data to a MySQL datastore located in CCX.
 - The MySQL Datastore on CCX is denoted as the 'replica'
 - The source of the data is denoted as the 'source'
+
+Note! If you dont want to setup replication, then you can chose to only apply the sections:
+* Create a database dump file
+* Apply the dumpfile on the replica
 
 ### Preparations
 Create a replication user with sufficient privileges on the source.
