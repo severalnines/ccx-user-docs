@@ -1,10 +1,10 @@
 # Importing data
 
 This procedure describes how to import data to a MariaDb datastore located in CCX.
-- The MySQL Datastore on CCX is denoted as the 'replica'
+- The MariaDb Datastore on CCX is denoted as the 'replica'
 - The source of the data is denoted as the 'source'
 
-Note! If you dont want to setup replication, then you can chose to only apply the sections:
+Note! If you do not want to setup replication, then you can chose to only apply the sections:
 * Create a database dump file
 * Apply the dumpfile on the replica
 
