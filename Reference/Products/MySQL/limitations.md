@@ -12,6 +12,7 @@ T, TRIGGER, GRANT
 'ccxadmin' is not allowed to modify the following databases
 * mysql.*
 * sys.*
+
 For those database, the following privileges have been revoked from 'ccxadmin':
 * INSERT, UPDATE, DELETE, CREATE, DROP, REFERENCES, INDEX, ALTER, CREATE TEMPORARY TABLES, LOCK TABLES, EXECUTE, CREATE\
  VIEW, SHOW VIEW, CREATE ROUTINE, ALTER ROUTINE, EVENT, TRIGGER
