@@ -2,7 +2,7 @@
 ## Important default values
 
 | Parameter        | Default value           | Comment  |
-| ------------- |:-------------:| -----:\
+| ------------- |:-------------:| -----:|
 | wal_keep_size |: 512 :|
 | max_wal_senders |: min 16, max 4 x Db Node count||
 | wal_level |: hotstandby :||
