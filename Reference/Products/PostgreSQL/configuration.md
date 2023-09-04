@@ -13,3 +13,11 @@
 | work_mem | instance_memory / max_connections | |
 | maintenance_work_mem | instance_memory/16 | |
 
+| Instance size (GiB RAM)       | Max connections |
+| ------------- |-------------|
+| < 4 | 100 |
+| 8 | 200 |
+| 16 | 400 |
+| 32 | 800 |
+| 64+ | 100 |
+
