@@ -1,6 +1,5 @@
 # Configuration
 ## Important default values
-
 | Parameter        | Default value           | Comment  |
 | ------------- |-------------| -----|
 | wal_keep_size | 512 |
@@ -20,4 +19,8 @@
 | 16 | 400 |
 | 32 | 800 |
 | 64+ | 1000 |
+
+## Auto-vacuum
+Auto-vacuum settings are set to default. Please read more about [automatic vaccuming here](https://www.postgresql.org/docs/15/runtime-config-autovacuum.html)
+
 
