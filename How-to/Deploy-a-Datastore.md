@@ -23,7 +23,7 @@ High-availability is facilitated with PostgreSQL streaming replication
 ### Scaling
 PostgreSQL can be created with one node (no high-availability) but can later be scaled with read-replicas.
 
-### Redis
+## Redis
 Redis is an in-memory data structure store.
 ### High-availability
 High-availability is facilitated with Redis replication and Redis Sentinels.
