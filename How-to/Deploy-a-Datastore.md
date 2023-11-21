@@ -1,7 +1,8 @@
 # Deploying a datastore
 ## MySQL or MariaDB
-MySQL 8.0 is recommended for general purpose.
-MariaDB is only recommended if you are migrating from an existing MariaDB system.
+MySQL 8.0 is recommended for general purpose. 
+MariaDB is recommended if you are migrating from an existing MariaDB system.
+Moreover, MySQL 8.0 offers a more sophisticated privilege system which makes database administration easier.
 
 ### High-availability
 MySQL and MariaDB offers two configurations for High-availability.
