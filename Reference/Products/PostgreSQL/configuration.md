@@ -1,4 +1,5 @@
 # Configuration
+These settings cannot be changed as it affects system stability
 ## Important default values
 | Parameter        | Default value           | Comment  |
 | ------------- |-------------| -----|

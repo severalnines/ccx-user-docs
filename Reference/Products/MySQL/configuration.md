@@ -5,6 +5,7 @@
 * This setting cannot be changed as it affects system stability.
 
 ## InnoDb settings
+* These setting cannot be changed as it affects system stability.
 ### innodb_buffer_pool_size
 * 50% of RAM if total RAM is > 4GB
 * 25% of RAM if total RAM is <= 4GB
