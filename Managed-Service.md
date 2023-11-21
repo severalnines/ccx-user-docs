@@ -23,7 +23,6 @@ In order to achieve this, CCX does not:
   - Allow the modification of settings that are not suitable for production use
   - Allow the installation of untrusted extensions or code
 
-
 If you do have specific requirements, such as:
 1. Temporary modification of configuration
 2. Feature requests for extensions or different versions of the databases
