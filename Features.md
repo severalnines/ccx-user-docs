@@ -24,7 +24,6 @@ Below is a feature matrix showing what operational feature is supported on each 
 |Scale nodes| Yes | Yes | Yes | Yes | Yes | No | No |
 |Scale volume| Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 |Upgrade | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| |  |  | |  | |  |  |
 |Backup to S3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 |Restore | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 |PITR | Yes | Yes | Yes | Yes | No | No | No |
