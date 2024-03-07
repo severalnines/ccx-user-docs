@@ -18,6 +18,13 @@ The following clouds are supported:
 Each datastore has different features and are suitable for different use cases.
 Below is a feature matrix showing what operational feature is supported on each datastore:
 
+
+|| MySQL | MariaDb | PostgreSQL | Redis | MS SQLServer<br> (single server) |  MS SQLServer<br> (Always-on, std license)|
+|Feature|:---------:
+|Scale nodes| Yes |
+
+
+
 | Datastore/Feature   |    Scale nodes   |  Scale volume size | Upgrade | Backup/Restore | User mgmt | 
 |----------|:-------------:|:------:|:------:|:------:|:------:|
 | MySQL | Yes, max 5 | Yes | Yes | Yes |
