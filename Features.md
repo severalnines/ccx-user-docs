@@ -21,11 +21,12 @@ Below is a feature matrix showing what operational feature is supported on each 
 
 |           | MySQL | MariaDb | PostgreSQL | Redis | MS SQLServer<br> (single server) |  MS SQLServer<br> (Always-on, std license)|
 |-----------|:-----:|:-------:|:----------:|:-----:|:---------:|:---------:|
-|Scale nodes| Yes | Yes | Yes | Yes | Yes | No | No |
-|Scale volume| Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-|Upgrade | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-|Backup to S3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-|Restore | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+|Scale nodes| Yes | Yes | Yes | Yes | No | No |
+|Scale volume| Yes | Yes | Yes | Yes | Yes | Yes |
+|Upgrade | Yes | Yes | Yes | Yes | Yes | Yes |
+| |  |  | |  | |  |  |
+|Backup to S3 | Yes | Yes | Yes | Yes | Yes | Yes |
+|Restore | Yes | Yes | Yes | Yes | Yes | Yes |
 |PITR | Yes | Yes | Yes | Yes | No | No | No |
 
 
