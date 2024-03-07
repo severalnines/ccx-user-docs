@@ -28,18 +28,8 @@ Below is a feature matrix showing what operational feature is supported on each 
 |Backup to S3 | Yes | Yes | Yes | Yes | Yes | Yes |
 |Restore | Yes | Yes | Yes | Yes | Yes | Yes |
 |PITR | Yes | Yes | Yes | Yes | No | No | No |
+| |  |  | |  | |  |  |
+| User management&dagger;&dagger; | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 
+&dagger;&dagger; : User management features and scope depends on the underlying datastore. There are datastore specific limitations.
 
-
-
-| Datastore/Feature   |    Scale nodes   |  Scale volume size | Upgrade | Backup/Restore | User mgmt | 
-|----------|:-------------:|:------:|:------:|:------:|:------:|
-| MySQL | Yes, max 5 | Yes | Yes | Yes |
-| MariaDb | yes, max 5   | Yes | Yes | Yes |
-| PostgreSQL | yes, max 5 | Yes | Yes | Yes |
-| Redis | yes, max 5 | Yes | Yes | Yes | Yes |
-| MS SQLServer (single server) | No  | Yes | Yes | Yes | Yes |
-| MS SQLServer (Always-on, std license) | No  | Yes | Yes | Yes |
-
-
-S3: Backups are stored in an S3 compatible storage.
