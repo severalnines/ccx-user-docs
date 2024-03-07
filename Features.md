@@ -19,9 +19,10 @@ Each datastore has different features and are suitable for different use cases.
 Below is a feature matrix showing what operational feature is supported on each datastore:
 
 
-|| MySQL | MariaDb | PostgreSQL | Redis | MS SQLServer<br> (single server) |  MS SQLServer<br> (Always-on, std license)|
-|Feature|:---------:
-|Scale nodes| Yes |
+| Feature   | MySQL | MariaDb | PostgreSQL | Redis | MS SQLServer<br> (single server) |  MS SQLServer<br> (Always-on, std license)|
+|-----------|:-----:|:-------:|:----------:|:-----:|:---------:|:---------:|
+|Scale nodes| Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+|Scale volumne| Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 
 
 
