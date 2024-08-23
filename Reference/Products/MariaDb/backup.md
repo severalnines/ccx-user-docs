@@ -1,8 +1,8 @@
-# Backup
+ Backup
 # Backups
-Percona Xtrabackup is used to create backups.
+Mariabackup is used to create backups.
 ## Backup locks
-Percona Xtrabackup blocks DDL operations during the backup using the --lock-ddl flag.
+Mariabackup  blocks DDL operations during the backup using the --lock-ddl flag.
 Any attempt to CREATE, ALTER, DROP, TRUNCATE a table during backup creation will be locked with the status 'Waiting for backup lock'  (see SHOW FULL PROCESSLIST).
 In this case, wait for the backup to finish and, perform the operation later.
 CCX backups a Primary server.
