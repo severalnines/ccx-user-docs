@@ -1,3 +1,6 @@
+DEPRECATED! Use [https://github.com/severalnines/ccx-docs](https://github.com/severalnines/ccx-docs) instead.
+
+
 This is the documentation for CCX, the cloud-native Sovereign DBaaS from Severalnines. You can use the public version of CCX, managed by Severalnines, [here](https://app.mydbservice.net/) or you can install it and run it on your own infrastructure. If you would like to do this, get in touch with us through our [website](https://severalnines.com/ccx/solutions/cloud-service-providers)
 
 The documentation is provided in Markdown and the structure follows the [Divio documentation system](https://documentation.divio.com/) as closely as possible.
